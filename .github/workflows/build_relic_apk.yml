@@ -36,7 +36,7 @@ jobs:
           gradle-version: '9.4.1'
 
       - name: Unpack RE-LIC project
-        run: 
+        run: |
           rm -rf project
           mkdir -p project   
           unzip -q RELIC_Android_Project.zip -d project
